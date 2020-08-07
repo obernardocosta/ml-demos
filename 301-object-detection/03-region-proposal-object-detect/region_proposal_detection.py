@@ -170,4 +170,5 @@ for label in labels.keys():
 
 	# show the output after apply non-maxima suppression
 	cv2.imshow("After", clone)
+	cv2.imwrite(args["image"].replace('.', '2.'), clone)
 	cv2.waitKey(0)
