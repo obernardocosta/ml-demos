@@ -1,3 +1,4 @@
 imutils
 tensorflow
 opencv-contrib-python
+sklearn
